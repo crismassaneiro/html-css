@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em Css</title>
+    <style>
+        body {
+            font-family: 'work sans';
+            /*
+            Medifas Absoulutas
+            cm, mm, in, px, pt,pc
+
+            Medidas Relativas
+
+            em, ex, rem, vw, vh, %
+            
+            16px geralmente é = 1em
+
+            Use em ou px (são medidas recomendadas)
+            */
+            font-size: 1em;
+
+            /* lighter normal bold bolder*/
+        }
+
+        h1 {
+            /* sorthand font (devo escrever respeitando a sequência abaixo)
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+
+            font: italic bolder 3em 'work sans', sans-serif;
+
+        }
+        h2 {
+            font: bold 2em 'Work Sans'
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam iste corrupti dolorum ullam officiis quaerat tenetur explicabo quo deserunt accusamus, deleniti praesentium dicta! Est iste quia quibusdam repudiandae omnis. Obcaecati.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos eius nihil incidunt facilis velit vitae recusandae fugit officia adipisci voluptatum? Quia, ea. Provident exercitationem tempora error totam tenetur quas modi.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis a reprehenderit odio possimus neque dolorum sed praesentium earum fuga, ducimus culpa, ipsa dicta. Ipsam quod cum sint, quas sed adipisci.</p>
+</body>
+</html>
